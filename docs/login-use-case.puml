@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor User
+rectangle "Login Module" {
+  usecase "Enter username and password" as UC1
+  usecase "Validate credentials" as UC2
+  usecase "Accept or reject login" as UC3
+}
+User --> UC1
+UC1 --> UC2
+UC2 --> UC3
+@enduml
