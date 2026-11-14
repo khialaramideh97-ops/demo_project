@@ -38,3 +38,11 @@ Replace `<REPO_URL>` with the URL of your repository.
 
 ## Important security note
 `src/auth.py` is deliberately simple and is only for teaching Git, testing, and regression testing. It is not secure authentication code and must not be used for real passwords or production login systems. Never commit credentials, tokens, private keys, or `.env` files.
+
+## Development workflow
+
+- Create a feature branch before making changes.
+- Run unit tests before committing.
+- Commit changes with a descriptive message.
+- Push the feature branch to GitHub.
+- Open a Pull Request to merge changes into main.
